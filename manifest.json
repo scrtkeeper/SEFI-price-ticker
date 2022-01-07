@@ -1,0 +1,22 @@
+{
+  "background": {
+    "persistent": false,
+    "scripts": ["sefi-ticker.js"]
+  },
+  "browser_action": {
+    "default_icon": "images/SEFI-logo.png",
+    "default_title": "(no data)"
+  },
+  "name": "SEFI price ticker",
+  "version": "1.1",
+  "description": "Shows SEFI price from CoinGecko in a browser toolbar.",
+  "permissions": ["alarms", "https://api.coingecko.com/"],
+  "icons": {
+    "128": "images/icon128.png",
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "64": "images/icon64.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "22"
+}
